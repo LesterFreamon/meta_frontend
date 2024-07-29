@@ -1,0 +1,26 @@
+body {
+    color: #333333;
+    background-color: #EE9972;
+    font-family: Cambria;
+}
+
+div ~ ul {
+    background-color: #edefee;
+    color: #495e57;
+    box-shadow: inset 1px 1px 1px #333333;
+    padding: 10px;
+}
+
+#menu:hover {
+    background-color: #f0f0f0;
+    color: #333333;
+}
+
+#menu:active {
+    background-color:blue;
+    color: #333333;
+}   
+
+li:first-of-type {
+    color: #ff0000;
+}
