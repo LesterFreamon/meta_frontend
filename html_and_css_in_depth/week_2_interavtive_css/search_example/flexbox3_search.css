@@ -1,0 +1,31 @@
+.container {
+  display: inline-flex;
+  flex: 1 1 300px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+
+.container img {
+  width: 232px;
+  height: 24px;
+}
+
+.icon {
+  padding: 0.8rem;
+}
+
+.searchBox {
+    border: 0;
+    flex: 1;
+}
+
+.searchButton {
+    background-color: #007bff;
+    color: white;
+    border: 0;
+    padding: 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
